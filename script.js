@@ -15,7 +15,9 @@ ct2.view.setBackgroundColor(Color(1,1,1,1));
 
 var lbl2 = Label(134, 100, 300, 80); 
 lbl2.setText('More levels with new skills and scenarios');
-ct2.view.addSubview(lbl2);
+controller.view.addSubview(lbl2);
+
+
 var btn2a = Button(100, 180, 150, 80); 
 btn2a.setBackgroundColor(Color(0.2,0.8,0.2,1)); 
 btn2a.setTitle('Survey'); 

@@ -9,7 +9,7 @@ controller.view.addSubview(btn);
 var ct2 = ViewController();
 ct2.view.setBackgroundColor(Color(1,1,1,1));
 
-var lbl = Label(134, 150, 300, 80); 
+var lbl = Label(84, 150, 400, 80); 
 lbl.setText('More levels with new skills and scenarios');
 ct2.view.addSubview(lbl);
 

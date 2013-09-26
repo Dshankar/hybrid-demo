@@ -5,6 +5,7 @@ var btn = Button(184, 150, 200, 80);
 btn.setBackgroundColor(Color(0.45,0.75,0.83,1)); 
 btn.setTitle('Unlock New Level'); 
 controller.view.addSubview(btn);
+controller.view.setBackgroundColor(Color(0.45,0.2,0.15,1));
 
 
 
@@ -15,9 +16,7 @@ ct2.view.setBackgroundColor(Color(1,1,1,1));
 
 var lbl2 = Label(134, 100, 300, 80); 
 lbl2.setText('More levels with new skills and scenarios');
-controller.view.addSubview(lbl2);
-
-
+ct2.view.addSubview(lbl2);
 var btn2a = Button(100, 180, 150, 80); 
 btn2a.setBackgroundColor(Color(0.2,0.8,0.2,1)); 
 btn2a.setTitle('Survey'); 

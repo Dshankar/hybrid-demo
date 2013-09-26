@@ -18,7 +18,7 @@ lbl2.setText('More levels with new skills and scenarios');
 ct2.view.addSubview(lbl2);
 var btn2a = Button(100, 180, 150, 80); 
 btn2a.setBackgroundColor(Color(0.2,0.8,0.2,1)); 
-btn2a.setTitle('Take a survey'); 
+btn2a.setTitle('Survey'); 
 ct2.view.addSubview(btn2a);
 var btn2b = Button(318, 180, 150, 80); 
 btn2b.setBackgroundColor(Color(0.45,0.75,0.83,1)); 
@@ -46,7 +46,7 @@ survey1.view.addSubview(btn3b);
 function buttonPress(sender){
   if(sender.currentTitle == 'Unlock New Level'){
     PresentModalDialog(ct2);
-  } else if (sender.currentTitle == 'Take a survey'){
+  } else if (sender.currentTitle == 'Survey'){
     PresentModalDialog(survey1);
   }
 }

@@ -4,7 +4,7 @@ addToWindow(controller);
 var btn = Button(184, 150, 200, 80); 
 btn.tag = 1;
 btn.setBackgroundColor(Color(0.45,0.75,0.83,1)); 
-btn.setTitle('Unlock New Levels!'); 
+btn.setTitle('Unlock A New Level'); 
 controller.view.addSubview(btn);
 controller.view.setBackgroundColor(Color(0.45,0.2,0.15,1));
 
@@ -17,7 +17,7 @@ ct2.view.setBackgroundColor(Color(1,1,1,1));
 
 var lbl2 = Label(134, 100, 300, 80); 
 lbl2.setText('Would you like to take a survey instead?');
-ct2.view.addSubview(lbl2);
+ct2.view.addSubview(lbl2);  
 
 var btn2a = Button(100, 180, 150, 80); 
 btn2a.tag = 2;

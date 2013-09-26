@@ -4,7 +4,7 @@ addToWindow(controller);
 var btn = Button(184, 150, 200, 80); 
 btn.tag = 1;
 btn.setBackgroundColor(Color(0.45,0.75,0.83,1)); 
-btn.setTitle('Unlock Levels'); 
+btn.setTitle('Unlock A Level'); 
 controller.view.addSubview(btn);
 controller.view.setBackgroundColor(Color(0.45,0.2,0.15,1));
 

@@ -9,9 +9,8 @@ controller.view.addSubview(btn);
 var ct2 = ViewController();
 ct2.view.setBackgroundColor(Color(1,1,1,1));
 
-var lbl = Label(20, 20, 225, 100); 
-lbl.setText('Hi from Javascript');
-lbl.setBackgroundColor(Color(0.5,0.5,0.5,0.5)); 
+var lbl = Label(184, 150, 200, 80); 
+lbl.setText('More levels with new skills and scenarios');
 ct2.view.addSubview(lbl);
 
 function buttonPress(sender){

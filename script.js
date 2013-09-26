@@ -75,6 +75,12 @@ btn4b.setTitle('2 hours');
 survey2.view.addSubview(btn4b);
 
 
+var btn4c = Button(318, 20, 50, 80); 
+btn4c.tag = 8;
+btn4c.setBackgroundColor(Color(0.7,0.7,0.7,1)); 
+btn4c.setTitle('1 hour'); 
+survey2.view.addSubview(btn4c);
+
 
 
 

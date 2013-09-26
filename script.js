@@ -1,4 +1,4 @@
-var controller = ViewController();
+  var controller = ViewController();
 addToWindow(controller);
 
 var btn = Button(184, 150, 200, 80); 
@@ -71,7 +71,7 @@ survey2.view.addSubview(btn4a);
 var btn4b = Button(318, 180, 150, 80); 
 btn4b.tag = 7;
 btn4b.setBackgroundColor(Color(0.7,0.7,0.7,1)); 
-btn4b.setTitle('Frequently'); 
+btn4b.setTitle('2 hours'); 
 survey2.view.addSubview(btn4b);
 
 
